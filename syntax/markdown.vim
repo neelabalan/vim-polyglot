@@ -173,14 +173,15 @@ HtmlHiLink mkdListItem      Identifier
 HtmlHiLink mkdRule          Identifier
 HtmlHiLink mkdLineBreak     Visual
 HtmlHiLink mkdFootnotes     htmlLink
-HtmlHiLink mkdLink          htmlLink
+HtmlHiLink mkdLink          Normal 
 HtmlHiLink mkdURL           htmlString
-HtmlHiLink mkdInlineURL     htmlLink
+HtmlHiLink mkdInlineURL     Type 
 HtmlHiLink mkdID            Identifier
 HtmlHiLink mkdLinkDef       mkdID
 HtmlHiLink mkdLinkDefTarget mkdURL
 HtmlHiLink mkdLinkTitle     htmlString
 HtmlHiLink mkdDelimiter     Delimiter
+HtmlHiLink mkdHeading       Type 
 
 let b:current_syntax = "mkd"
 

@@ -271,12 +271,12 @@ hi def link htmlValue                   String
 hi def link htmlSpecialChar             Special
 
 if !exists("html_no_rendering")
-  hi def link htmlH1                      Title
-  hi def link htmlH2                      htmlH1
-  hi def link htmlH3                      htmlH2
-  hi def link htmlH4                      htmlH3
-  hi def link htmlH5                      htmlH4
-  hi def link htmlH6                      htmlH5
+  hi def link htmlH1                      Normal
+  hi def link htmlH2                      Normal
+  hi def link htmlH3                      Normal
+  hi def link htmlH4                      Normal
+  hi def link htmlH5                      Normal
+  hi def link htmlH6                      Normal
   hi def link htmlHead                    PreProc
   hi def link htmlTitle                   Title
   hi def link htmlBoldItalicUnderline     htmlBoldUnderlineItalic
